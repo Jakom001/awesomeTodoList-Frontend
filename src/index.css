@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-blue-500 m-6
+}
+a.active{
+    @apply text-blue-500 border-b-2 border-blue-500
+}
