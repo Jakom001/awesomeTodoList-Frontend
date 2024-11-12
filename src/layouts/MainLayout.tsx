@@ -3,11 +3,6 @@ import { useState } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import { useTodoContext } from '../context/TodoContext';
 
-interface Task{
-  newTask: string;
-  setNewTask:(newTask: string) => void;
-}
-
 const MainLayout = () => {
   const {} = useTodoContext
   const {addTodoItem, clearAll} = useTodoContext()
